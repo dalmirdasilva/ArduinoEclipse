@@ -1,0 +1,1754 @@
+Archive member included because of file (symbol)
+
+/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o (twi_init)
+/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                              ./main.o (_ZN14HardwareSerial5beginEmh)
+/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                              ./main.o (Serial)
+/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o (_ZN5Print5writeEPKhj)
+/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o (__cxa_pure_virtual)
+/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                              ./main.o (delay)
+/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o) (digitalWrite)
+/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o) (yield)
+/work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+                              /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o (_ZN11WiredDeviceC2Eh)
+/work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                              ./main.o (_ZN15BMP085Barometer11getAltitudeEv)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                              /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o) (__mulsi3)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+                              ./main.o (__divmodhi4)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o (__udivmodsi4)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                              /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o) (__divmodsi4)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o (exit)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o (__do_global_ctors)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                              /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o) (__muluhisi3)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                              /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o) (__mulshisi3)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o) (__tablejump__)
+/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o) (__umulhisi3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__subsf3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o) (__addsf3x)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__ltsf2)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__divsf3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o) (__divsf3x)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__fixsfsi)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__fixunssfsi)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__floatunsisf)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_inf)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_nan)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscA)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscB)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o) (__fp_round)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_split3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_zero)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__gtsf2)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__mulsf3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o) (__mulsf3x)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+                              /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o) (pow)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o) (__unordsf2)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o) (exp)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_powser.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o) (__fp_powser)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(inverse.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o) (inverse)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o) (ldexp)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o) (log)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(modf.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o) (modf)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_mpack.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o) (__fp_mpack)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o) (abort)
+
+Discarded input sections
+
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ .text          0x0000000000000000        0x0 ./main.o
+ .bss           0x0000000000000000        0x0 ./main.o
+ .text.loop     0x0000000000000000        0x2 ./main.o
+ .group         0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .group         0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire16onReceiveServiceEPhi
+                0x0000000000000000       0x46 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire16onRequestServiceEv
+                0x0000000000000000       0x18 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire5beginEv
+                0x0000000000000000       0x14 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire5beginEh
+                0x0000000000000000       0x26 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire5beginEi
+                0x0000000000000000        0x4 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire8setClockEm
+                0x0000000000000000       0x26 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEhh
+                0x0000000000000000        0x6 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEiii
+                0x0000000000000000        0x4 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire17beginTransmissionEi
+                0x0000000000000000        0x4 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire9onReceiveEPFviE
+                0x0000000000000000        0xa /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire9onRequestEPFvvE
+                0x0000000000000000        0xa /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .rodata._ZTV6Stream
+                0x0000000000000000       0x10 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .bss._ZN7TwoWire14user_onReceiveE
+                0x0000000000000000        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .bss._ZN7TwoWire14user_onRequestE
+                0x0000000000000000        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .group         0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .text._ZN22EepromBasedWiredDeviceC2Ehc
+                0x0000000000000000       0x2a /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .text._ZN22EepromBasedWiredDeviceC2Eh
+                0x0000000000000000       0x16 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .text._ZN22EepromBasedWiredDevice14setAddressSizeEc
+                0x0000000000000000        0x6 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .text._ZN22EepromBasedWiredDevice14getAddressSizeEv
+                0x0000000000000000        0x6 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .text.twi_init
+                0x0000000000000000       0x3c /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .text.twi_setAddress
+                0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .text.twi_attachSlaveRxEvent
+                0x0000000000000000        0xa /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .text.twi_attachSlaveTxEvent
+                0x0000000000000000        0xa /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .text.twi_reply
+                0x0000000000000000       0x10 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .group         0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .text._Z14serialEventRunv
+                0x0000000000000000       0x1c /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial3endEv
+                0x0000000000000000       0x38 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial17availableForWriteEv
+                0x0000000000000000       0x1e /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+ .text._Z17Serial0_availablev
+                0x0000000000000000       0x14 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+ .group         0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .group         0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x0000000000000000       0x4a /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x0000000000000000       0x1c /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x0000000000000000       0x14 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x0000000000000000       0x24 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x0000000000000000       0x24 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x0000000000000000       0x24 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x0000000000000000       0x24 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEii
+                0x0000000000000000       0x30 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x0000000000000000       0x24 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEmi
+                0x0000000000000000       0x1a /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEhi
+                0x0000000000000000        0xe /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEhi
+                0x0000000000000000       0x2e /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEji
+                0x0000000000000000        0xc /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x0000000000000000       0x2c /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEmi
+                0x0000000000000000       0x24 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x0000000000000000       0x24 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .rodata._ZTV5Print
+                0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+ .text.__cxa_deleted_virtual
+                0x0000000000000000        0x4 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+ .text.millis   0x0000000000000000       0x18 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .text.turnOffPWM
+                0x0000000000000000       0x52 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x0000000000000000       0x72 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .text.digitalWrite
+                0x0000000000000000       0x6c /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .text.digitalRead
+                0x0000000000000000       0x52 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .progmem.data.digital_pin_to_timer_PGM
+                0x0000000000000000       0x14 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .progmem.data.digital_pin_to_bit_mask_PGM
+                0x0000000000000000       0x14 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .progmem.data.digital_pin_to_port_PGM
+                0x0000000000000000       0x14 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .progmem.data.port_to_input_PGM
+                0x0000000000000000        0xa /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .progmem.data.port_to_output_PGM
+                0x0000000000000000        0xa /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .progmem.data.port_to_mode_PGM
+                0x0000000000000000        0xa /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+ .text._ZN11WiredDevice16setDeviceAddressEh
+                0x0000000000000000        0x6 /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+ .group         0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+ .group         0x0000000000000000        0x8 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+ .text          0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+ .bss           0x0000000000000000        0x0 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+ .text._ZN15BMP085BarometerC2Ev
+                0x0000000000000000        0x6 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_powser.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_powser.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(inverse.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(inverse.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(modf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(modf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_mpack.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_mpack.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+LOAD ./main.o
+LOAD /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+LOAD /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+LOAD /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a
+LOAD /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a
+LOAD /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a
+LOAD /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x2006
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_fplib
+                0x0000000000000068       0x28 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+ .progmem.gcc_fplib
+                0x0000000000000090       0x5a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                0x00000000000000ea                . = ALIGN (0x2)
+                0x00000000000000ea                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000000ea        0x0 linker stubs
+ *(.trampolines*)
+                0x00000000000000ea                __trampolines_end = .
+ *(.progmem*)
+                0x00000000000000ea                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000000ea                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000000000000ea        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .ctors         0x00000000000000ec        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                0x00000000000000ee                __ctors_end = .
+                0x00000000000000ee                __dtors_start = .
+ *(.dtors)
+                0x00000000000000ee                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000000000000ee        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+                0x00000000000000ee                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000000000000ee        0xc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000000fa       0x16 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x00000000000000fa                __do_copy_data
+ .init4         0x0000000000000110       0x10 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000110                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000000000000120       0x16 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x0000000000000120                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000136        0x6 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000013c        0x2 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+                0x000000000000013c                __vector_22
+                0x000000000000013c                __vector_1
+                0x000000000000013c                __vector_12
+                0x000000000000013c                __bad_interrupt
+                0x000000000000013c                __vector_6
+                0x000000000000013c                __vector_3
+                0x000000000000013c                __vector_23
+                0x000000000000013c                __vector_25
+                0x000000000000013c                __vector_11
+                0x000000000000013c                __vector_13
+                0x000000000000013c                __vector_17
+                0x000000000000013c                __vector_7
+                0x000000000000013c                __vector_5
+                0x000000000000013c                __vector_4
+                0x000000000000013c                __vector_9
+                0x000000000000013c                __vector_2
+                0x000000000000013c                __vector_21
+                0x000000000000013c                __vector_15
+                0x000000000000013c                __vector_8
+                0x000000000000013c                __vector_14
+                0x000000000000013c                __vector_10
+                0x000000000000013c                __vector_20
+                0x000000000000013e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.setup    0x000000000000013e       0xd2 ./main.o
+                0x000000000000013e                setup
+ .text.startup.main
+                0x0000000000000210        0x4 ./main.o
+                0x0000000000000210                main
+ .text._ZN7TwoWire9availableEv
+                0x0000000000000214       0x10 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x0000000000000214                _ZN7TwoWire9availableEv
+ .text._ZN7TwoWire4readEv
+                0x0000000000000224       0x26 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x0000000000000224                _ZN7TwoWire4readEv
+ .text._ZN7TwoWire4peekEv
+                0x000000000000024a       0x1e /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x000000000000024a                _ZN7TwoWire4peekEv
+ .text._ZN7TwoWire5flushEv
+                0x0000000000000268        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x0000000000000268                _ZN7TwoWire5flushEv
+ .text._ZN7TwoWire5writeEPKhj
+                0x000000000000026a       0x58 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x000000000000026a                _ZN7TwoWire5writeEPKhj
+ .text._ZN7TwoWire5writeEh
+                0x00000000000002c2       0x5c /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000000002c2                _ZN7TwoWire5writeEh
+ .text._ZN7TwoWireC2Ev
+                0x000000000000031e       0x20 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x000000000000031e                _ZN7TwoWireC2Ev
+                0x000000000000031e                _ZN7TwoWireC1Ev
+ .text._ZN7TwoWire11requestFromEhhh
+                0x000000000000033e       0x18 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x000000000000033e                _ZN7TwoWire11requestFromEhhh
+ .text._ZN7TwoWire11requestFromEii
+                0x0000000000000356        0x4 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x0000000000000356                _ZN7TwoWire11requestFromEii
+ .text._ZN7TwoWire17beginTransmissionEh
+                0x000000000000035a       0x14 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x000000000000035a                _ZN7TwoWire17beginTransmissionEh
+ .text._ZN7TwoWire15endTransmissionEh
+                0x000000000000036e       0x24 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x000000000000036e                _ZN7TwoWire15endTransmissionEh
+ .text._ZN7TwoWire15endTransmissionEv
+                0x0000000000000392        0x4 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x0000000000000392                _ZN7TwoWire15endTransmissionEv
+ .text.startup._GLOBAL__sub_I__ZN7TwoWire8rxBufferE
+                0x0000000000000396        0x6 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .text._ZN7TwoWire5writeEi
+                0x000000000000039c        0xe /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+                0x000000000000039c                _ZN7TwoWire5writeEi
+ .text._ZN22EepromBasedWiredDeviceC2Ehch
+                0x00000000000003aa       0x2e /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+                0x00000000000003aa                _ZN22EepromBasedWiredDeviceC2Ehch
+                0x00000000000003aa                _ZN22EepromBasedWiredDeviceC1Ehch
+ .text._ZN22EepromBasedWiredDevice10writeBlockEjPhi
+                0x00000000000003d8       0x88 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+                0x00000000000003d8                _ZN22EepromBasedWiredDevice10writeBlockEjPhi
+ .text._ZN22EepromBasedWiredDevice9readBlockEjPhi
+                0x0000000000000460       0xe4 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+                0x0000000000000460                _ZN22EepromBasedWiredDevice9readBlockEjPhi
+ .text.twi_readFrom
+                0x0000000000000544       0x88 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                0x0000000000000544                twi_readFrom
+ .text.twi_writeTo
+                0x00000000000005cc       0xa6 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                0x00000000000005cc                twi_writeTo
+ .text.twi_transmit
+                0x0000000000000672       0x32 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                0x0000000000000672                twi_transmit
+ .text.twi_stop
+                0x00000000000006a4       0x14 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                0x00000000000006a4                twi_stop
+ .text.twi_releaseBus
+                0x00000000000006b8        0xc /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                0x00000000000006b8                twi_releaseBus
+ .text.__vector_24
+                0x00000000000006c4      0x254 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                0x00000000000006c4                __vector_24
+ .text._ZN14HardwareSerial9availableEv
+                0x0000000000000918       0x16 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000918                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x000000000000092e       0x1c /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x000000000000092e                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x000000000000094a       0x28 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x000000000000094a                _ZN14HardwareSerial4readEv
+ .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x0000000000000972       0x42 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000972                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+ .text._ZN14HardwareSerial5flushEv
+                0x00000000000009b4       0x42 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x00000000000009b4                _ZN14HardwareSerial5flushEv
+ .text._ZN14HardwareSerial5writeEh
+                0x00000000000009f6       0xc8 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x00000000000009f6                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5beginEmh
+                0x0000000000000abe       0xc0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000abe                _ZN14HardwareSerial5beginEmh
+ .text.__vector_18
+                0x0000000000000b7e       0x64 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                0x0000000000000b7e                __vector_18
+ .text.__vector_19
+                0x0000000000000be2       0x4a /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                0x0000000000000be2                __vector_19
+ .text.startup._GLOBAL__sub_I___vector_18
+                0x0000000000000c2c       0x86 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+ .text._ZN5Print5writeEPKhj
+                0x0000000000000cb2       0x50 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000cb2                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x0000000000000d02       0x2c /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000d02                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x0000000000000d2e        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000d2e                _ZN5Print5printEPKc
+ .text._ZN5Print5printEc
+                0x0000000000000d30        0xe /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000d30                _ZN5Print5printEc
+ .text._ZN5Print7printlnEv
+                0x0000000000000d3e        0x6 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000d3e                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x0000000000000d44       0x20 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000d44                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x0000000000000d64       0xae /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000d64                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEli
+                0x0000000000000e12       0x8e /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000e12                _ZN5Print5printEli
+ .text._ZN5Print5printEii
+                0x0000000000000ea0        0xe /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000ea0                _ZN5Print5printEii
+ .text._ZN5Print10printFloatEdh
+                0x0000000000000eae      0x1ae /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000eae                _ZN5Print10printFloatEdh
+ .text._ZN5Print5printEdi
+                0x000000000000105c        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x000000000000105c                _ZN5Print5printEdi
+ .text.__cxa_pure_virtual
+                0x000000000000105e        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+                0x000000000000105e                __cxa_pure_virtual
+ .text.__vector_16
+                0x0000000000001060       0x94 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000001060                __vector_16
+ .text.micros   0x00000000000010f4       0x46 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x00000000000010f4                micros
+ .text.delay    0x000000000000113a       0x4a /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x000000000000113a                delay
+ .text.delayMicroseconds
+                0x0000000000001184       0x16 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000001184                delayMicroseconds
+ .text.init     0x000000000000119a       0x76 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x000000000000119a                init
+ .text.__empty  0x0000000000001210        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+                0x0000000000001210                yield
+ .text._ZN11WiredDeviceC2Eh
+                0x0000000000001212        0x6 /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+                0x0000000000001212                _ZN11WiredDeviceC2Eh
+                0x0000000000001212                _ZN11WiredDeviceC1Eh
+ .text._ZN11WiredDevice16getDeviceAddressEv
+                0x0000000000001218        0x6 /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+                0x0000000000001218                _ZN11WiredDevice16getDeviceAddressEv
+ .text._ZN15BMP085Barometer11getAltitudeEv
+                0x000000000000121e       0x3c /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x000000000000121e                _ZN15BMP085Barometer11getAltitudeEv
+ .text._ZN15BMP085Barometer16readCallibrationEv
+                0x000000000000125a       0xde /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x000000000000125a                _ZN15BMP085Barometer16readCallibrationEv
+ .text._ZN15BMP085BarometerC2Eh
+                0x0000000000001338       0x3c /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x0000000000001338                _ZN15BMP085BarometerC1Eh
+                0x0000000000001338                _ZN15BMP085BarometerC2Eh
+ .text._ZN15BMP085Barometer28readUncompensatedTemperatureEv
+                0x0000000000001374       0x5c /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x0000000000001374                _ZN15BMP085Barometer28readUncompensatedTemperatureEv
+ .text._ZN15BMP085Barometer25readUncompensatedPressureEv
+                0x00000000000013d0       0xb8 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x00000000000013d0                _ZN15BMP085Barometer25readUncompensatedPressureEv
+ .text._ZN15BMP085Barometer9computeB5Ej
+                0x0000000000001488       0x7a /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x0000000000001488                _ZN15BMP085Barometer9computeB5Ej
+ .text._ZN15BMP085Barometer14getTemperatureEv
+                0x0000000000001502       0x2c /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x0000000000001502                _ZN15BMP085Barometer14getTemperatureEv
+ .text._ZN15BMP085Barometer11getPressureEv
+                0x000000000000152e      0x292 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x000000000000152e                _ZN15BMP085Barometer11getPressureEv
+ .text.libgcc.mul
+                0x00000000000017c0       0x1e /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                0x00000000000017c0                __mulsi3
+ .text.libgcc.div
+                0x00000000000017de       0x26 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+                0x00000000000017de                __divmodhi4
+                0x00000000000017de                _div
+ .text.libgcc.div
+                0x0000000000001804       0x44 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000001804                __udivmodsi4
+ .text.libgcc.div
+                0x0000000000001848       0x28 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000001848                __divmodsi4
+ .text.libgcc.div
+                0x0000000000001870       0x10 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+                0x0000000000001870                __negsi2
+ .text.libgcc.mul
+                0x0000000000001880       0x14 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000001880                __muluhisi3
+ .text.libgcc.mul
+                0x0000000000001894        0xc /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                0x0000000000001894                __mulshisi3
+                0x0000000000001898                __mulohisi3
+ .text.libgcc.div
+                0x00000000000018a0       0x28 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+                0x00000000000018a0                __udivmodhi4
+ .text.libgcc   0x00000000000018c8        0xc /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x00000000000018c8                __tablejump2__
+                0x00000000000018cc                __tablejump__
+ .text.libgcc.mul
+                0x00000000000018d4       0x1e /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                0x00000000000018d4                __umulhisi3
+ .text.avr-libc.fplib
+                0x00000000000018f2        0xa /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+                0x00000000000018f2                __subsf3
+                0x00000000000018f4                __addsf3
+ .text.avr-libc.fplib
+                0x00000000000018fc       0xc0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                0x0000000000001916                __addsf3x
+ .text.avr-libc.fplib
+                0x00000000000019bc        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                0x00000000000019bc                __lesf2
+                0x00000000000019bc                __nesf2
+                0x00000000000019bc                __eqsf2
+                0x00000000000019bc                __cmpsf2
+                0x00000000000019bc                __ltsf2
+ .text.avr-libc.fplib
+                0x00000000000019c4        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+                0x00000000000019c4                __divsf3
+ .text.avr-libc.fplib
+                0x00000000000019c8       0xcc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                0x00000000000019de                __divsf3x
+                0x00000000000019e2                __divsf3_pse
+ .text.avr-libc.fplib
+                0x0000000000001a94        0xa /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                0x0000000000001a94                __fixsfsi
+ .text.avr-libc.fplib
+                0x0000000000001a9e       0x58 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                0x0000000000001a9e                __fixunssfsi
+ .text.avr-libc.fplib
+                0x0000000000001af6       0x7a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                0x0000000000001af6                __floatunsisf
+                0x0000000000001afa                __floatsisf
+ .text.avr-libc.fplib
+                0x0000000000001b70       0x48 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                0x0000000000001b70                __fp_cmp
+ .text.avr-libc.fplib
+                0x0000000000001bb8        0xc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                0x0000000000001bb8                __fp_inf
+ .text.avr-libc.fplib
+                0x0000000000001bc4        0x6 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                0x0000000000001bc4                __fp_nan
+ .text.avr-libc.fplib
+                0x0000000000001bca        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                0x0000000000001bca                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000000000001bd8        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                0x0000000000001bd8                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000000000001be6       0x22 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
+                0x0000000000001be6                __fp_round
+ .text.avr-libc.fplib
+                0x0000000000001c08       0x44 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                0x0000000000001c08                __fp_split3
+                0x0000000000001c18                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000000000001c4c        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                0x0000000000001c4c                __fp_zero
+                0x0000000000001c4e                __fp_szero
+ .text.avr-libc.fplib
+                0x0000000000001c5a        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
+                0x0000000000001c5a                __gtsf2
+                0x0000000000001c5a                __gesf2
+ .text.avr-libc.fplib
+                0x0000000000001c62        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                0x0000000000001c62                __mulsf3
+ .text.avr-libc.fplib
+                0x0000000000001c66       0xc2 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                0x0000000000001c7a                __mulsf3x
+                0x0000000000001c7e                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x0000000000001d28       0x98 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+                0x0000000000001d28                pow
+ .text.avr-libc.fplib
+                0x0000000000001dc0        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+                0x0000000000001dc0                __unordsf2
+ .text.avr-libc.fplib
+                0x0000000000001dc8       0x62 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+                0x0000000000001dd2                exp
+ .text.avr-libc.fplib
+                0x0000000000001e2a       0x4a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_powser.o)
+                0x0000000000001e2a                __fp_powser
+ .text.avr-libc.fplib
+                0x0000000000001e74        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(inverse.o)
+                0x0000000000001e74                inverse
+ .text.avr-libc.fplib
+                0x0000000000001e82       0x6c /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+                0x0000000000001e86                ldexp
+ .text.avr-libc.fplib
+                0x0000000000001eee       0x8a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                0x0000000000001ef8                log
+ .text.avr-libc.fplib
+                0x0000000000001f78       0x66 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(modf.o)
+                0x0000000000001f78                modff
+                0x0000000000001f78                modf
+ .text.avr-libc.fplib
+                0x0000000000001fde       0x1c /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_mpack.o)
+                0x0000000000001fde                __fp_mpack
+                0x0000000000001fe2                __fp_mpack_finite
+ .text.avr-libc
+                0x0000000000001ffa        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+                0x0000000000001ffa                abort
+                0x0000000000002002                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000002002        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000000000002002                exit
+                0x0000000000002002                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000002002        0x4 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000002006                _etext = .
+
+.data           0x0000000000800100       0xb0 load address 0x0000000000002006
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ .data          0x0000000000800100        0x0 ./main.o
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+ .data          0x0000000000800100        0x0 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_powser.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(inverse.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(modf.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_mpack.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800100       0x6c ./main.o
+                                         0x6e (size before relaxing)
+ .rodata._ZTV7TwoWire
+                0x000000000080016c       0x10 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x000000000080016c                _ZTV7TwoWire
+ .rodata._ZTV14HardwareSerial
+                0x000000000080017c       0x10 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x000000000080017c                _ZTV14HardwareSerial
+ .rodata.str1.1
+                0x000000000080018c        0xf /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                         0x11 (size before relaxing)
+ .rodata._ZTV9Barometer
+                0x000000000080019b        0xa /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x000000000080019b                _ZTV9Barometer
+ .rodata._ZTV15BMP085Barometer
+                0x00000000008001a5        0xa /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                0x00000000008001a5                _ZTV15BMP085Barometer
+ *(.gnu.linkonce.d*)
+                0x00000000008001b0                . = ALIGN (0x2)
+ *fill*         0x00000000008001af        0x1 
+                0x00000000008001b0                _edata = .
+                0x00000000008001b0                PROVIDE (__data_end, .)
+
+.bss            0x00000000008001b0      0x166
+                0x00000000008001b0                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.Wire      0x00000000008001b0        0xc /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001b0                Wire
+ .bss._ZN7TwoWire12transmittingE
+                0x00000000008001bc        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001bc                _ZN7TwoWire12transmittingE
+ .bss._ZN7TwoWire14txBufferLengthE
+                0x00000000008001bd        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001bd                _ZN7TwoWire14txBufferLengthE
+ .bss._ZN7TwoWire13txBufferIndexE
+                0x00000000008001be        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001be                _ZN7TwoWire13txBufferIndexE
+ .bss._ZN7TwoWire8txBufferE
+                0x00000000008001bf       0x20 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001bf                _ZN7TwoWire8txBufferE
+ .bss._ZN7TwoWire9txAddressE
+                0x00000000008001df        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001df                _ZN7TwoWire9txAddressE
+ .bss._ZN7TwoWire14rxBufferLengthE
+                0x00000000008001e0        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001e0                _ZN7TwoWire14rxBufferLengthE
+ .bss._ZN7TwoWire13rxBufferIndexE
+                0x00000000008001e1        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001e1                _ZN7TwoWire13rxBufferIndexE
+ .bss._ZN7TwoWire8rxBufferE
+                0x00000000008001e2       0x20 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                0x00000000008001e2                _ZN7TwoWire8rxBufferE
+ .bss.twi_error
+                0x0000000000800202        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_rxBufferIndex
+                0x0000000000800203        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_rxBuffer
+                0x0000000000800204       0x20 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_txBufferLength
+                0x0000000000800224        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_txBufferIndex
+                0x0000000000800225        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_txBuffer
+                0x0000000000800226       0x20 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_masterBufferLength
+                0x0000000000800246        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_masterBufferIndex
+                0x0000000000800247        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_masterBuffer
+                0x0000000000800248       0x20 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_onSlaveReceive
+                0x0000000000800268        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_onSlaveTransmit
+                0x000000000080026a        0x2 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_inRepStart
+                0x000000000080026c        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_sendStop
+                0x000000000080026d        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_slarw
+                0x000000000080026e        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.twi_state
+                0x000000000080026f        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .bss.Serial    0x0000000000800270       0x9d /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                0x0000000000800270                Serial
+ .bss.timer0_fract
+                0x000000000080030d        0x1 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+ .bss.timer0_millis
+                0x000000000080030e        0x4 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x000000000080030e                timer0_millis
+ .bss.timer0_overflow_count
+                0x0000000000800312        0x4 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000800312                timer0_overflow_count
+ *(COMMON)
+                0x0000000000800316                PROVIDE (__bss_end, .)
+                0x0000000000002006                __data_load_start = LOADADDR (.data)
+                0x00000000000020b6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800316        0x0
+                0x0000000000800316                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0000000000800316                PROVIDE (__noinit_end, .)
+                0x0000000000800316                _end = .
+                0x0000000000800316                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 ./main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+ .comment       0x0000000000000000       0x12 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(SimpleArdionoSketch.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+BMP085Barometer::BMP085Barometer()                /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+BMP085Barometer::BMP085Barometer()                /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+BMP085Barometer::BMP085Barometer(unsigned char)   /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  ./main.o
+BMP085Barometer::BMP085Barometer(unsigned char)   /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+BMP085Barometer::computeB5(unsigned int)          /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+BMP085Barometer::getAltitude()                    /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  ./main.o
+BMP085Barometer::getPressure()                    /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  ./main.o
+BMP085Barometer::getTemperature()                 /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  ./main.o
+BMP085Barometer::readCallibration()               /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+BMP085Barometer::readUncompensatedPressure()      /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+BMP085Barometer::readUncompensatedTemperature()   /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+EepromBasedWiredDevice::EepromBasedWiredDevice(unsigned char) /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+EepromBasedWiredDevice::EepromBasedWiredDevice(unsigned char) /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+EepromBasedWiredDevice::EepromBasedWiredDevice(unsigned char, char) /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+EepromBasedWiredDevice::EepromBasedWiredDevice(unsigned char, char) /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+EepromBasedWiredDevice::EepromBasedWiredDevice(unsigned char, char, unsigned char) /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+EepromBasedWiredDevice::EepromBasedWiredDevice(unsigned char, char, unsigned char) /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+EepromBasedWiredDevice::getAddressSize()          /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+EepromBasedWiredDevice::readBlock(unsigned int, unsigned char*, int) /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+EepromBasedWiredDevice::setAddressSize(char)      /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+EepromBasedWiredDevice::writeBlock(unsigned int, unsigned char*, int) /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+HardwareSerial::_tx_udr_empty_irq()               /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+HardwareSerial::available()                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+HardwareSerial::availableForWrite()               /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+HardwareSerial::begin(unsigned long, unsigned char) /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  ./main.o
+HardwareSerial::end()                             /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+HardwareSerial::flush()                           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+HardwareSerial::peek()                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+HardwareSerial::read()                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+HardwareSerial::write(unsigned char)              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+Print::print(Printable const&)                    /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::print(String const&)                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::print(__FlashStringHelper const*)          /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::print(char const*)                         /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  ./main.o
+Print::print(char)                                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::print(double, int)                         /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  ./main.o
+Print::print(int, int)                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  ./main.o
+Print::print(long, int)                           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  ./main.o
+Print::print(unsigned char, int)                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::print(unsigned int, int)                   /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::print(unsigned long, int)                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::printFloat(double, unsigned char)          /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::printNumber(unsigned long, unsigned char)  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println()                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(Printable const&)                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(String const&)                     /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(__FlashStringHelper const*)        /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(char const*)                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  ./main.o
+Print::println(char)                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(double, int)                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(int, int)                          /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(long, int)                         /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(unsigned char, int)                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(unsigned int, int)                 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::println(unsigned long, int)                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::write(char const*)                         /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+Print::write(unsigned char const*, unsigned int)  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+Serial                                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                                                  ./main.o
+Serial0_available()                               /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+TwoWire::TwoWire()                                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::TwoWire()                                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::available()                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+TwoWire::begin()                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::begin(int)                               /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::begin(unsigned char)                     /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::beginTransmission(int)                   /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::beginTransmission(unsigned char)         /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+TwoWire::endTransmission()                        /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+TwoWire::endTransmission(unsigned char)           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::flush()                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::onReceive(void (*)(int))                 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::onReceiveService(unsigned char*, int)    /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::onRequest(void (*)())                    /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::onRequestService()                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::peek()                                   /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::read()                                   /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+TwoWire::requestFrom(int, int)                    /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+TwoWire::requestFrom(int, int, int)               /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::requestFrom(unsigned char, unsigned char) /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::requestFrom(unsigned char, unsigned char, unsigned char) /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::rxBuffer                                 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::rxBufferIndex                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::rxBufferLength                           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::setClock(unsigned long)                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::transmitting                             /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::txAddress                                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::txBuffer                                 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::txBufferIndex                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::txBufferLength                           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::user_onReceive                           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::user_onRequest                           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::write(int)                               /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+TwoWire::write(unsigned char const*, unsigned int) /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+TwoWire::write(unsigned char)                     /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+Wire                                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+WiredDevice::WiredDevice(unsigned char)           /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+WiredDevice::WiredDevice(unsigned char)           /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+WiredDevice::getDeviceAddress()                   /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+WiredDevice::setDeviceAddress(unsigned char)      /work/opensource/personal/microcontroller/arduino/driver/device/Release/libArduinoDevice.a(WiredDevice.o)
+__addsf3                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__addsf3x                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_powser.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__bss_end                                         /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__cmpsf2                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__ctors_end                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__cxa_deleted_virtual                             /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+__cxa_pure_virtual                                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+__data_end                                        /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__divmodhi4                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+                                                  ./main.o
+__divmodsi4                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+__divsf3                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(inverse.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__divsf3_pse                                      /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+__divsf3x                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+                                                  ./main.o
+__do_global_ctors                                 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+__eqsf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fixsfsi                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__fixunssfsi                                      /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__floatsisf                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__floatunsisf                                     /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__fp_cmp                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fp_inf                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_mpack                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_mpack.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+__fp_mpack_finite                                 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_mpack.o)
+__fp_nan                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_powser                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_powser.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+__fp_pscA                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_pscB                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_round                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+__fp_split3                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_splitA                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+__fp_szero                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
+__fp_zero                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__gesf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
+__gtsf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__heap_end                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__init                                            /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__lesf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__ltsf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__mulohisi3                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+__mulsf3                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__mulsf3_pse                                      /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+__mulsf3x                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_powser.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+__mulshisi3                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+__mulsi3                                          /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+__muluhisi3                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+__negsi2                                          /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+__nesf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__stack                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__subsf3                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(modf.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__tablejump2__                                    /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+__tablejump__                                     /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__udivmodhi4                                      /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodhi4.o)
+                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+__umulhisi3                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+__unordsf2                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__vector_1                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_10                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_11                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_12                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_13                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_14                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_15                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_16                                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_17                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_18                                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_19                                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_2                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_20                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_21                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_22                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_23                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_24                                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_25                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_3                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_4                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_5                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_6                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_7                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_8                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_9                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_default                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vectors                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+_div                                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodhi4.o)
+_exit                                             /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+abort                                             /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(abi.o)
+delay                                             /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+                                                  ./main.o
+delayMicroseconds                                 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/device/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
+digitalRead                                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+digitalWrite                                      /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+digital_pin_to_bit_mask_PGM                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+digital_pin_to_port_PGM                           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+digital_pin_to_timer_PGM                          /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+exit                                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+exp                                               /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+init                                              /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                                                  ./main.o
+inverse                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(inverse.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+ldexp                                             /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(ldexp.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+log                                               /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(log.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+loop                                              ./main.o
+main                                              ./main.o
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+micros                                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+millis                                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+modf                                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(modf.o)
+                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(exp.o)
+modff                                             /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(modf.o)
+pinMode                                           /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+port_to_input_PGM                                 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+port_to_mode_PGM                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+port_to_output_PGM                                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+pow                                               /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(pow.o)
+                                                  /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+serialEvent()                                     /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+serialEventRun()                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+setup                                             ./main.o
+timer0_millis                                     /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+timer0_overflow_count                             /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+twi_attachSlaveRxEvent                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+twi_attachSlaveTxEvent                            /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+twi_init                                          /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+twi_readFrom                                      /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+twi_releaseBus                                    /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+twi_reply                                         /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+twi_setAddress                                    /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+twi_stop                                          /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+twi_transmit                                      /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+twi_writeTo                                       /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(twi.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+vtable for BMP085Barometer                        /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+vtable for Barometer                              /work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Release/libArduinoBarometer.a(BMP085Barometer.o)
+vtable for HardwareSerial                         /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+vtable for Print                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(Print.o)
+vtable for Stream                                 /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+vtable for TwoWire                                /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libraries/Wire/Wire.o
+yield                                             /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+                                                  /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release/libArduinoCore.a(wiring.o)

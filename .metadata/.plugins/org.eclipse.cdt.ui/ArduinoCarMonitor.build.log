@@ -1,0 +1,20 @@
+22:40:26 **** Build of configuration Release for project ArduinoCarMonitor ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p ArduinoCarMonitor.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    3776 bytes (11.5% Full)
+(.text + .data + .bootloader)
+
+Data:        138 bytes (6.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+22:40:26 Build Finished (took 53ms)
+

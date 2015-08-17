@@ -1,0 +1,20 @@
+22:40:29 **** Build of configuration Release for project ArduinoParkingSensor ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p ArduinoParkingSensor.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    7634 bytes (23.3% Full)
+(.text + .data + .bootloader)
+
+Data:        965 bytes (47.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+22:40:29 Build Finished (took 52ms)
+

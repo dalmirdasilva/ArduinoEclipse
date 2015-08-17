@@ -1,0 +1,48 @@
+23:25:59 **** Incremental Build of configuration Debug for project ArduinoSimpleResourceOrientedFileSystemLibrary ****
+make all 
+Building file: ../ResourceSystem/ResourceSystem.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"/work/opensource/personal/microcontroller/srofs" -I"/work/opensource/personal/microcontroller/arduino/library/srbfs/ArduinoSimpleResourceOrientedFileSystemLibrary/ArrayResourceSystem" -I"/work/opensource/personal/microcontroller/arduino/library/srbfs/ArduinoSimpleResourceOrientedFileSystemLibrary/ExternalEepromResourceSystem" -I"/work/opensource/personal/microcontroller/arduino/library/srbfs/ArduinoSimpleResourceOrientedFileSystemLibrary/Resource" -I"/work/opensource/personal/microcontroller/arduino/library/srbfs/ArduinoSimpleResourceOrientedFileSystemLibrary/ResourceSystem" -I"/work/opensource/personal/microcontroller/arduino/library/srbfs/ArduinoSimpleResourceOrientedFileSystemLibrary/VirtualResourceSystem" -I"/work/opensource/personal/microcontroller/arduino/driver/memory" -I"/work/opensource/personal/microcontroller/arduino/driver/memory/ExternalEeprom" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"ResourceSystem/ResourceSystem.d" -MT"ResourceSystem/ResourceSystem.d" -c -o "ResourceSystem/ResourceSystem.o" "../ResourceSystem/ResourceSystem.cpp"
+../ResourceSystem/ResourceSystem.cpp: In constructor ‘ResourceSystem::ResourceSystem(srbfs_t*)’:
+../ResourceSystem/ResourceSystem.cpp:19:24: error: ISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘&ResourceSystem::read’ [-fpermissive]
+     srbfs->io->read = &read;
+                        ^
+../ResourceSystem/ResourceSystem.cpp:19:21: error: cannot convert ‘unsigned char (ResourceSystem::*)(unsigned char, unsigned int)’ to ‘uint8_t (*)(uint8_t, uint16_t) {aka unsigned char (*)(unsigned char, unsigned int)}’ in assignment
+     srbfs->io->read = &read;
+                     ^
+../ResourceSystem/ResourceSystem.cpp:20:25: error: ISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘&ResourceSystem::write’ [-fpermissive]
+     srbfs->io->write = &write;
+                         ^
+../ResourceSystem/ResourceSystem.cpp:20:22: error: cannot convert ‘void (ResourceSystem::*)(unsigned char, unsigned int, unsigned char)’ to ‘void (*)(uint8_t, uint16_t, uint8_t) {aka void (*)(unsigned char, unsigned int, unsigned char)}’ in assignment
+     srbfs->io->write = &write;
+                      ^
+ResourceSystem/subdir.mk:18: recipe for target 'ResourceSystem/ResourceSystem.o' failed
+../ResourceSystem/ResourceSystem.cpp: In member function ‘virtual bool ResourceSystem::mount(ResourceSystem::MountOptions)’:
+../ResourceSystem/ResourceSystem.cpp:29:113: error: cannot convert ‘srbfs_t*’ to ‘srbfs_driver_t’ for argument ‘1’ to ‘srbfs_op_result_t srbfs_mount(srbfs_driver_t, srbfs_t*, srbfs_mount_options_t)’
+     lastOperationResult = (Resource::ResourceOperationResult) srbfs_mount(srbfs, (srbfs_mount_options_t) options);
+                                                                                                                 ^
+../ResourceSystem/ResourceSystem.cpp: In member function ‘virtual Resource ResourceSystem::allocResource()’:
+../ResourceSystem/ResourceSystem.cpp:47:17: error: ‘RS_NULL_RESOURCE_CODE’ was not declared in this scope
+     Resource rw(RS_NULL_RESOURCE_CODE, srbfs);
+                 ^
+In file included from ../ResourceSystem/ResourceSystem.h:15:0,
+                 from ../ResourceSystem/ResourceSystem.cpp:14:
+/work/opensource/personal/microcontroller/arduino/library/srbfs/ArduinoSimpleResourceOrientedFileSystemLibrary/Resource/Resource.h: In member function ‘virtual Resource ResourceSystem::loadResource(int)’:
+/work/opensource/personal/microcontroller/arduino/library/srbfs/ArduinoSimpleResourceOrientedFileSystemLibrary/Resource/Resource.h:47:14: error: ‘srbfs_t* Resource::srbfs’ is private
+     srbfs_t* srbfs;
+              ^
+../ResourceSystem/ResourceSystem.cpp:59:14: error: within this context
+     resource.srbfs = srbfs;
+              ^
+In file included from ../ResourceSystem/ResourceSystem.h:15:0,
+                 from ../ResourceSystem/ResourceSystem.cpp:14:
+/work/opensource/personal/microcontroller/arduino/library/srbfs/ArduinoSimpleResourceOrientedFileSystemLibrary/Resource/Resource.h:45:27: error: ‘srbfs_resource_code_t Resource::code’ is private
+     srbfs_resource_code_t code;
+                           ^
+../ResourceSystem/ResourceSystem.cpp:60:14: error: within this context
+     resource.code = code;
+              ^
+make: *** [ResourceSystem/ResourceSystem.o] Error 1
+
+23:25:59 Build Finished (took 52ms)
+

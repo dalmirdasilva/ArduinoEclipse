@@ -1,0 +1,50 @@
+18:34:06 **** Build of configuration Debug for project ArduinoNaiveBayes ****
+make all 
+Building file: ../Sensor.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/variants/standard" -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore" -I"/work/opensource/personal/microcontroller/arduino/driver/sensor/distance/ArduinoDistanceDriver/DistanceSensor" -I"/work/opensource/personal/microcontroller/arduino/driver/sensor/distance/ArduinoDistanceDriver/UltrasoundDistanceSensor" -I"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver" -I"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver/LedMatrixDriver" -I"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver/LedMatrixMAX7219Driver" -I"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver/MAX7219Driver" -I"/work/opensource/personal/microcontroller/arduino/ia/ArduinoNaiveBayes" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"Sensor.d" -MT"Sensor.d" -c -o "Sensor.o" "../Sensor.cpp"
+Finished building: ../Sensor.cpp
+ 
+Building file: ../main.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/variants/standard" -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore" -I"/work/opensource/personal/microcontroller/arduino/driver/sensor/distance/ArduinoDistanceDriver/DistanceSensor" -I"/work/opensource/personal/microcontroller/arduino/driver/sensor/distance/ArduinoDistanceDriver/UltrasoundDistanceSensor" -I"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver" -I"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver/LedMatrixDriver" -I"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver/LedMatrixMAX7219Driver" -I"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver/MAX7219Driver" -I"/work/opensource/personal/microcontroller/arduino/ia/ArduinoNaiveBayes" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.d" -c -o "main.o" "../main.cpp"
+In file included from /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/USBAPI.h:27:0,
+                 from /work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Arduino.h:225,
+                 from /work/opensource/personal/microcontroller/arduino/driver/sensor/distance/ArduinoDistanceDriver/UltrasoundDistanceSensor/UltrasoundDistanceSensor.h:14,
+                 from ../main.cpp:3:
+/usr/lib/avr/include/util/delay.h:95:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^
+../main.cpp: In function ‘void setup()’:
+../main.cpp:34:11: warning: unused variable ‘sensors’ [-Wunused-variable]
+   Sensor *sensors[MAX_SENSORS];
+           ^
+Finished building: ../main.cpp
+ 
+Building target: ArduinoNaiveBayes.elf
+Invoking: AVR C++ Linker
+avr-g++ -Wl,-Map,ArduinoNaiveBayes.map,--cref -mrelax -Wl,--gc-sections -L"/work/opensource/personal/microcontroller/arduino/driver/sensor/distance/ArduinoDistanceDriver/Release" -L"/work/opensource/personal/microcontroller/arduino/driver/led/ArduinoLedMatrixDriver/Release" -L"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/Release" -mmcu=atmega328p -o "ArduinoNaiveBayes.elf"  ./Sensor.o ./main.o   -lArduinoDistanceDriver -lArduinoLedMatrixDriver -lArduinoCore
+Finished building target: ArduinoNaiveBayes.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ArduinoNaiveBayes.elf  >"ArduinoNaiveBayes.lss"
+Finished building: ArduinoNaiveBayes.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p ArduinoNaiveBayes.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    5732 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:        366 bytes (17.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+18:34:06 Build Finished (took 102ms)
+

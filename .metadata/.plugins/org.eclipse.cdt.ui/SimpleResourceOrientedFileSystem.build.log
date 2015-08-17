@@ -1,0 +1,53 @@
+23:27:41 **** Incremental Build of configuration Debug for project SimpleResourceOrientedFileSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 libSimpleResourceOrientedFileSystem.a
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+23:27:41 Build Finished (took 51ms)
+

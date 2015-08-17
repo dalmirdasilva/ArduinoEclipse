@@ -1,0 +1,75 @@
+#include <Settings.h>
+#include <Sensor.h>
+#include <UltrasoundDistanceSensor.h>
+#include <Arduino.h>
+
+#include <MAX7219Driver.h>
+#include <LedMatrixDriver.h>
+#include <LedMatrixMAX7219Driver.h>
+
+#include <string.h>
+
+#define SENSOR0_TRIG_PIN  A0
+#define SENSOR0_ECHO_PIN  A1
+
+#define SENSOR1_TRIG_PIN  A2
+#define SENSOR1_ECHO_PIN  A3
+
+#define SENSOR0_MIN_DISTANCE  0.0
+#define SENSOR0_MAX_DISTANCE  400.0
+#define SENSOR0_THRESHOLD     40.0
+#define SENSOR1_MIN_DISTANCE  0.0
+#define SENSOR1_MAX_DISTANCE  400.0
+#define SENSOR1_THRESHOLD     40.0
+
+#define LED_MATRIX_WIDTH      8
+#define LED_MATRIX_HEIGHT     8
+
+#define LED_MATRIX_DATA_PIN   10
+#define LED_MATRIX_CLOCK_PIN  11
+#define LED_MATRIX_LOAD_PIN   12
+
+
+void setup() {
+
+  Serial.begin(9600);
+  Serial.print("Initializing...");
+
+  MAX7219Driver driver(LED_MATRIX_DATA_PIN, LED_MATRIX_CLOCK_PIN, LED_MATRIX_LOAD_PIN);
+  LedMatrixMAX7219Driver matrix(&driver, LED_MATRIX_WIDTH, LED_MATRIX_HEIGHT);
+
+  Sensor *sensors[MAX_SENSORS];
+
+  UltrasoundDistanceSensor distanceSensor0(SENSOR0_ECHO_PIN, SENSOR0_TRIG_PIN);
+  UltrasoundDistanceSensor distanceSensor1(SENSOR1_ECHO_PIN, SENSOR1_TRIG_PIN);
+
+  Sensor sensor0(&distanceSensor0, SENSOR0_THRESHOLD, SENSOR0_MIN_DISTANCE, SENSOR0_MAX_DISTANCE);
+  Sensor sensor1(&distanceSensor1, SENSOR1_THRESHOLD, SENSOR1_MIN_DISTANCE, SENSOR1_MAX_DISTANCE);
+
+
+  Serial.println("done. \nStarting machine state...");
+
+  matrix.clear();
+}
+
+void loop() {
+
+}
+
+int main(void) {
+
+  init();
+
+#if defined(USBCON)
+  USBDevice.attach();
+#endif
+
+  setup();
+
+  while (true) {
+    loop();
+    if (serialEventRun) {
+      serialEventRun();
+    }
+  }
+}

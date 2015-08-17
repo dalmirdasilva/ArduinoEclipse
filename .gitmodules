@@ -1,0 +1,94 @@
+[submodule "ArduinoInterface"]
+	path = ./ArduinoInterface
+	url = git@github.com:dalmirdasilva/ArduinoInterface.git
+[submodule "ArduinoRFCloner"]
+	path = ArduinoRFCloner
+	url = git@github.com:dalmirdasilva/ArduinoRFCloner.git
+[submodule "ArduinoRSLibrary"]
+	path = ArduinoRSLibrary
+	url = git@github.com:dalmirdasilva/ArduinoRSLibrary.git
+[submodule "ArduinoRemote"]
+	path = ArduinoRemote
+	url = git@github.com:dalmirdasilva/ArduinoRemote.git
+[submodule "ArduinoNIOLibrary"]
+	path = ArduinoNIOLibrary
+	url = git@github.com:dalmirdasilva/ArduinoNIOLibrary.git
+[submodule "ArduinoIO"]
+	path = ArduinoIO
+	url = git@github.com:dalmirdasilva/ArduinoIO.git
+[submodule "ArduinoGlcdLibrary"]
+	path = ArduinoGlcdLibrary
+	url = git@github.com:dalmirdasilva/ArduinoGlcdLibrary.git
+[submodule "ArduinoWeatherSensorsDriver"]
+	path = ArduinoWeatherSensorsDriver
+	url = git@github.com:dalmirdasilva/ArduinoWeatherSensorsDriver.git
+[submodule "ArduinoDistanceDriver"]
+	path = ArduinoDistanceDriver
+	url = git@github.com:dalmirdasilva/ArduinoDistanceDriver.git
+[submodule "ArduinoColorRecognitionDriver"]
+	path = ArduinoColorRecognitionDriver
+	url = git@github.com:dalmirdasilva/ArduinoColorRecognitionDriver.git
+[submodule "ArduinoAccelerometerDriver"]
+	path = ArduinoAccelerometerDriver
+	url = git@github.com:dalmirdasilva/ArduinoAccelerometerDriver.git
+[submodule "ArduinoSerialRadioFrequency"]
+	path = ArduinoSerialRadioFrequency
+	url = git@github.com:dalmirdasilva/ArduinoSerialRadioFrequency.git
+[submodule "ArduinoCamera"]
+	path = ArduinoCamera
+	url = git@github.com:dalmirdasilva/ArduinoCamera.git
+[submodule "ArduinoGlcdDriver"]
+	path = ArduinoGlcdDriver
+	url = git@github.com:dalmirdasilva/ArduinoGlcdDriver.git
+[submodule "ArduinoGsmDriver"]
+	path = ArduinoGsmDriver
+	url = git@github.com:dalmirdasilva/ArduinoGsmDriver.git
+[submodule "ArduinoIOExpanderDriver"]
+	path = ArduinoIOExpanderDriver
+	url = git@github.com:dalmirdasilva/ArduinoIOExpanderDriver.git
+[submodule "ArduinoLedMatrixDriver"]
+	path = ArduinoLedMatrixDriver
+	url = git@github.com:dalmirdasilva/ArduinoLedMatrixDriver.git
+[submodule "ArduinoMAX7219Driver"]
+	path = ArduinoMAX7219Driver
+	url = git@github.com:dalmirdasilva/ArduinoMAX7219Driver.git
+[submodule "ArduinoMemoryDriver"]
+	path = ArduinoMemoryDriver
+	url = git@github.com:dalmirdasilva/ArduinoMemoryDriver.git
+[submodule "ArduinoCube"]
+	path = ArduinoCube
+	url = git@github.com:dalmirdasilva/ArduinoCube.git
+[submodule "RaspberryBcm2835"]
+	path = RaspberryBcm2835
+	url = git@github.com:dalmirdasilva/RaspberryBcm2835.git
+[submodule "RaspberryGpio"]
+	path = RaspberryGpio
+	url = git@github.com:dalmirdasilva/RaspberryGpio.git
+[submodule "RaspberryWire"]
+	path = RaspberryWire
+	url = git@github.com:dalmirdasilva/RaspberryWire.git
+[submodule "RaspberryIO"]
+	path = RaspberryIO
+	url = git@github.com:dalmirdasilva/RaspberryIO.git
+[submodule "ArduinoParkingSensor"]
+	path = ArduinoParkingSensor
+	url = git@github.com:dalmirdasilva/ArduinoParkingSensor.git
+[submodule "ArduinoGps"]
+	path = ArduinoGps
+	url = git@github.com:dalmirdasilva/ArduinoGps.git
+[submodule "BrushlessGimbal"]
+	path = BrushlessGimbal
+	url = git@github.com:dalmirdasilva/BrushlessGimbal.git
+[submodule "ArduinoGyroscope"]
+	path = ArduinoGyroscope
+	url = git@github.com:dalmirdasilva/ArduinoGyroscope.git
+[submodule "ArduinoCore"]
+	path = ArduinoCore
+	url = git@github.com:dalmirdasilva/ArduinoCore.git
+[submodule "ArduinoCarMonitor"]
+  path = ArduinoCarMonitor
+  url = git@github.com:dalmirdasilva/ArduinoCarMonitor.git
+[submodule "ArduinoDevice"]
+  path = ArduinoDevice
+  url = git@github.com:dalmirdasilva/ArduinoDevice.git
+

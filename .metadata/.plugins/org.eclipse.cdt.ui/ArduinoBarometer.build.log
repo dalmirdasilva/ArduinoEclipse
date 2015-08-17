@@ -1,0 +1,55 @@
+18:03:50 **** Build of configuration Release for project ArduinoBarometer ****
+make all 
+Building file: ../Barometer/Barometer.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore" -I"/work/opensource/personal/microcontroller/arduino/driver/device/EepromBasedWiredDevice" -I"/work/opensource/personal/microcontroller/arduino/driver/device/WiredDevice" -I"/work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Barometer" -I"/work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/BMP085Barometer" -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore" -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/variants/standard" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"Barometer/Barometer.d" -MT"Barometer/Barometer.d" -c -o "Barometer/Barometer.o" "../Barometer/Barometer.cpp"
+Finished building: ../Barometer/Barometer.cpp
+ 
+Building file: ../BMP085Barometer/BMP085Barometer.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore" -I"/work/opensource/personal/microcontroller/arduino/driver/device/EepromBasedWiredDevice" -I"/work/opensource/personal/microcontroller/arduino/driver/device/WiredDevice" -I"/work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/Barometer" -I"/work/opensource/personal/microcontroller/arduino/driver/sensor/pressure/ArduinoBarometer/BMP085Barometer" -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore" -I"/work/opensource/personal/microcontroller/arduino/core/ArduinoCore/variants/standard" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"BMP085Barometer/BMP085Barometer.d" -MT"BMP085Barometer/BMP085Barometer.d" -c -o "BMP085Barometer/BMP085Barometer.o" "../BMP085Barometer/BMP085Barometer.cpp"
+../BMP085Barometer/BMP085Barometer.cpp: In constructor ‘BMP085Barometer::BMP085Barometer()’:
+../BMP085Barometer/BMP085Barometer.cpp:13:42: warning: delegating constructors only available with -std=c++11 or -std=gnu++11 [enabled by default]
+         : BMP085Barometer(ULTRA_LOW_POWER) {
+                                          ^
+Finished building: ../BMP085Barometer/BMP085Barometer.cpp
+ 
+Building target: libArduinoBarometer.a
+Invoking: AVR Archiver
+avr-ar -r  "libArduinoBarometer.a"  ./Barometer/Barometer.o  ./BMP085Barometer/BMP085Barometer.o  
+avr-ar: creating libArduinoBarometer.a
+Finished building target: libArduinoBarometer.a
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S libArduinoBarometer.a  >"libArduinoBarometer.lss"
+Finished building: libArduinoBarometer.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p libArduinoBarometer.a
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+18:03:50 Build Finished (took 101ms)
+

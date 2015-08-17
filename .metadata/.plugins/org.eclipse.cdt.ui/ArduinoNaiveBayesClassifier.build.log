@@ -1,0 +1,20 @@
+22:40:29 **** Build of configuration Debug for project ArduinoNaiveBayesClassifier ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p ArduinoNaiveBayesClassifier.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    5732 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:        366 bytes (17.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+22:40:29 Build Finished (took 52ms)
+

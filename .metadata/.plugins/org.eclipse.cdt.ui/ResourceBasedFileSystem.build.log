@@ -1,0 +1,42 @@
+22:40:30 **** Build of configuration Release for project ResourceBasedFileSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 libResourceBasedFileSystem.a
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+22:40:30 Build Finished (took 52ms)
+

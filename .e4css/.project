@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.e4css</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>e4_classic_winxp.css</name>
+			<type>1</type>
+			<location>/opt/eclipse/plugins/org.eclipse.ui.themes_1.0.1.v20141126-1957/css/e4_classic_winxp.css</location>
+		</link>
+		<link>
+			<name>e4_default_gtk.css</name>
+			<type>1</type>
+			<location>/opt/eclipse/plugins/org.eclipse.ui.themes_1.0.1.v20141126-1957/css/e4_default_gtk.css</location>
+		</link>
+	</linkedResources>
+</projectDescription>

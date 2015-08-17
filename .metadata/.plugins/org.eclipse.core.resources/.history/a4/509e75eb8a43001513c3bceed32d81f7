@@ -1,0 +1,48 @@
+/**
+ * Arduino - Barometer Driver
+ *
+ * BMP085Barometer.h
+ *
+ * BMP085Barometer class.
+ *
+ * @author Dalmir da Silva <dalmirdasilva@gmail.com>
+ */
+
+#ifndef __ARDUINO_BAROMETER_DRIVER_BMP085_BAROMETER_H__
+#define __ARDUINO_BAROMETER_DRIVER_BMP085_BAROMETER_H__ 1
+
+#define BMP085_ADDRESS      0x77
+
+#include <Barometer.h>
+#include <WiredDevice.h>
+
+class BMP085Barometer: public Barometer, public WiredDevice {
+    unsigned short ac1;
+    unsigned short ac2;
+    unsigned short ac3;
+    unsigned short ac4;
+    unsigned short ac5;
+    unsigned short ac6;
+    unsigned short b1;
+    unsigned short b2;
+    unsigned short mb;
+    unsigned short mc;
+    unsigned short md;
+public:
+
+    virtual unsigned short getTemperature();
+
+    virtual unsigned short getPressure();
+
+    virtual unsigned short getAltitude();
+
+private:
+
+    void readCallibration();
+
+    unsigned short readTemperature();
+
+    unsigned short readPressure();
+};
+
+#endif // __ARDUINO_BAROMETER_DRIVER_BMP085_BAROMETER_H__

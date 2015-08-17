@@ -1,0 +1,121 @@
+/**
+ * Arduino - External eeprom
+ * 
+ * ExternalEeprom.cpp
+ * 
+ * This is an abstract class of external eeprom.
+ * 
+ * @author Dalmir da Silva <dalmirdasilva@gmail.com>
+ */
+
+#ifndef __ARDUINO_EXTERNAL_EEPROM_CPP__
+#define __ARDUINO_EXTERNAL_EEPROM_CPP__ 1
+
+#define min(a, b) ((a > b) ? b : a)  
+
+#include "ExternalEeprom.h"
+
+ExternalEeprom::ExternalEeprom(int pageSize, uint16_t deviceSize,
+        uint8_t device) {
+    this->pageSize = pageSize;
+    deviceSize = deviceSize;
+    this->device = 0x50 | (device & 0x07);
+}
+
+void ExternalEeprom::write(uint16_t address, uint8_t b) {
+    writeBlock(address, &b, 1);
+}
+
+void ExternalEeprom::writeBytes(uint16_t address, uint8_t* buf,
+        int len) {
+    uint16_t eop, room;
+    int chunkSize;
+    room = (deviceSize - address);
+    if (room == 0) {
+        return;
+    }
+    len = (room < (uint8_t) len) ? room : len;
+    eop = endOfPage(address);
+    chunkSize = min(eop, (uint8_t) len);
+    if (chunkSize > 0) {
+        writeBlock(address, buf, chunkSize);
+        address += chunkSize;
+        buf += chunkSize;
+        len -= chunkSize;
+    }
+    while (len > 0) {
+        chunkSize = min(len, pageSize);
+        writeBlock(address, buf, chunkSize);
+        address += chunkSize;
+        buf += chunkSize;
+        len -= chunkSize;
+    }
+}
+
+int ExternalEeprom::read(uint16_t address) {
+    uint8_t b;
+    if (readBytes(address, &b, 1) == -1) {
+        return -1;
+    }
+    return (int) b;
+}
+
+int ExternalEeprom::readBytes(uint16_t address, uint8_t* buf,
+        int len) {
+    int cnt, chunkSize = pageSize;
+    uint16_t available;
+    if (address >= deviceSize) {
+        return -1;
+    }
+    available = (deviceSize - address);
+    if (available < (uint8_t) len) {
+        len = (int) available;
+    }
+    cnt = len;
+    while (len > 0) {
+        chunkSize = min(len, pageSize);
+        readBlock(address, buf, chunkSize);
+        address += chunkSize;
+        buf += chunkSize;
+        len -= chunkSize;
+    }
+    return cnt;
+}
+
+int ExternalEeprom::setBytes(uint16_t address, uint8_t b, int len) {
+    uint8_t buf[pageSize];
+    int eop, chunkSize;
+    uint16_t room;
+    if (address >= deviceSize) {
+        return -1;
+    }
+    room = (deviceSize - address);
+    if (room < (uint8_t) len) {
+        len = (int) room;
+    }
+    for (int i = 0; i < pageSize; i++) {
+        buf[i] = b;
+    }
+    eop = endOfPage(address);
+    if (eop > 0) {
+        chunkSize = min(eop, len);
+        writeBlock(address, buf, chunkSize);
+        address += chunkSize;
+        len -= chunkSize;
+    }
+    while (len > 0) {
+        chunkSize = min(len, pageSize);
+        writeBlock(address, buf, chunkSize);
+        address += chunkSize;
+        len -= chunkSize;
+    }
+    return len;
+}
+
+uint16_t ExternalEeprom::endOfPage(uint16_t address) {
+    // Why / and then * by the same number?
+    uint16_t eopAddr = ((address + pageSize - 1) / pageSize) * pageSize;
+    return (eopAddr - address);
+}
+
+#endif /* __ARDUINO_EXTERNAL_EEPROM_CPP__ */

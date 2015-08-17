@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="603" key="DIALOG_Y_ORIGIN"/>
+		<item value="1228" key="DIALOG_X_ORIGIN"/>
+		<item value="385" key="DIALOG_HEIGHT"/>
+		<item value="1|Ubuntu|7.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wholeword"/>
+		<item value="p" key="selection"/>
+		<list key="findhistory">
+			<item value="p"/>
+			<item value="REGISTER_BASED_WIRED_DEVICE"/>
+			<item value="MDFILE"/>
+			<item value="USE_MDFILE_AS_MAINPAGE"/>
+			<item value="PDF"/>
+			<item value="HTML = "/>
+			<item value="HTML = Y"/>
+			<item value="HTML"/>
+		</list>
+		<list key="replacehistory">
+			<item value="EEPROM_BASED_WIRED_DEVICE"/>
+			<item value="EepromBasedWiredDevice"/>
+			<item value="int16_t"/>
+			<item value="uint8_t"/>
+			<item value="uint16_t"/>
+			<item value=""/>
+			<item value="RBFS"/>
+			<item value="RBDS_M"/>
+		</list>
+	</section>
+</section>

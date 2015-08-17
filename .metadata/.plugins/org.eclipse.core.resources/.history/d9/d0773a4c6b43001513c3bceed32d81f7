@@ -1,0 +1,4 @@
+#include "WiredDevice.h"
+
+WiredDevice::WiredDevice(unsigned char address) : WiredDevice(address) {
+}
