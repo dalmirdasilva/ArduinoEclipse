@@ -1,4 +1,0 @@
-DistanceSensor/DistanceSensor.d: ../DistanceSensor/DistanceSensor.cpp \
- /work/opensource/personal/microcontroller/arduino/driver/sensor/distance/ArduinoDistanceDriver/DistanceSensor/DistanceSensor.h
-
-/work/opensource/personal/microcontroller/arduino/driver/sensor/distance/ArduinoDistanceDriver/DistanceSensor/DistanceSensor.h:

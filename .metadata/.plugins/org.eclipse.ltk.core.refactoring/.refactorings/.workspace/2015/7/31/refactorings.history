@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ArduinoLedMatrixDriver&apos;" deleteContents="false" description="Delete resource &apos;ArduinoLedMatrixDriver&apos;" element1="/ArduinoLedMatrixDriver" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1438052454977"/>&#x0A;<refactoring comment="Delete resource &apos;ArduinoParkingSensor&apos;" deleteContents="false" description="Delete resource &apos;ArduinoParkingSensor&apos;" element1="/ArduinoParkingSensor" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1438052461996"/>
-</session>
