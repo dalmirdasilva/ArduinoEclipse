@@ -64,7 +64,7 @@ all: SimpleArdionoSketch.elf secondary-outputs
 SimpleArdionoSketch.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C++ Linker'
-	avr-g++ -Wl,-Map,SimpleArdionoSketch.map,--cref -mrelax -Wl,--gc-sections -L"/work/personal/opensource/microcontroller/arduino/ArduinoCore/Release" -mmcu=atmega328p -o "SimpleArdionoSketch.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-g++ -Wl,-Map,SimpleArdionoSketch.map,--cref -mrelax -Wl,--gc-sections -L"/work/opensource/personal/microcontroller/arduino/ArduinoLibraries/ArduinoCore/Release" -L"/work/opensource/personal/microcontroller/arduino/ArduinoLibraries/ArduinoAccelerometerDriver/Release" -L"/work/opensource/personal/microcontroller/arduino/ArduinoLibraries/ArduinoGyroscope/Release" -L"/work/opensource/personal/microcontroller/arduino/ArduinoLibraries/ArduinoDevice/Release" -mmcu=atmega328p -o "SimpleArdionoSketch.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-USER_OBJS :=  
+USER_OBJS :=  /work/opensource/personal/microcontroller/arduino/ArduinoLibraries/ArduinoDevice/Release/EepromBasedWiredDevice/EepromBasedWiredDevice.o
 
-LIBS := -lArduinoCore
+LIBS := -lArduinoCore -lArduinoAccelerometerSensor -lArduinoGyroscope -lArduinoDevice
 
